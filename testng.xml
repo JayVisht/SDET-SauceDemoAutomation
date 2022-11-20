@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite" verbose="1" >
+    <test name="All features" >
+        <classes>
+            <class name="login.LoginPageTest" />
+            <class name="product.ProductPageTest" />
+        </classes>
+    </test>
+
+    <test name="Sanity">
+        <classes>
+            <class name="login.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
